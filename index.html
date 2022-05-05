@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Taskinator</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -30,12 +30,22 @@
       </form>
     </header>
 
-    <main>
+    <main class="page-content">
+      <!-- Tasks To Do -->
       <section class="task-list-wrapper">
         <h2 class="list-title">Tasks To Do</h2>
-        <ul class="task-list" id="tasks-to-do">
-          <li class="task-item">A task is going to be added soon!</li>
-        </ul>
+        <ul class="task-list" id="tasks-to-do"></ul>
+      </section>
+      <!-- Tasks In Progress -->
+      <section class="task-list-wrapper">
+        <h2 class="list-title">Tasks In Progress</h2>
+        <ul class="task-list" id="tasks-in-progress"></ul>
+      </section>
+
+      <!-- Tasks Completed -->
+      <section class="task-list-wrapper">
+        <h2 class="list-title">Tasks Completed</h2>
+        <ul class="task-list" id="tasks-completed"></ul>
       </section>
     </main>
 
